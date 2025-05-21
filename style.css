@@ -16,8 +16,8 @@ marquee{
     font-weight: bold;
     font-size: 25px;
     color: #f1641e;
-    @media (max-width: 376px){
-        font-size: 1px;
+    @media (max-width: 480px){
+        font-size: 20px;
     }
 }
 .section-m{
