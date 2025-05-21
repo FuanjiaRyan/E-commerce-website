@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 480px){
+    *{
+        align-items: center;
+    }
+}
 body{
     /*background-image: url(pics/etsyimage.jpeg);
     background-size: cover;
@@ -15,6 +20,7 @@ body{
 @media (max-width: 480px){
     body{
         overflow-x: hidden;
+        align-items: center;
     }
 }
 marquee{
@@ -124,6 +130,16 @@ marquee{
     justify-content: center;
     padding-top: 10px;
 }
+@media (max-width: 480px){
+    .navbar2{
+        display: block;
+    }
+}
+@media (max-width: 480px){
+    .navbar2 a{
+        align-items: center;
+    }
+}
 .navbar2 .gift{
     margin-top: 10px;
 }
@@ -134,6 +150,12 @@ marquee{
 .navbar2 button{
     border-radius: 20px;
 }
+@media (max-width: 480px){
+    .navbar2 button{
+        background-color: #f1641e;
+        color: white;
+    }
+}
 .padding{
     padding: 10px;
     margin: 10px;
@@ -141,7 +163,8 @@ marquee{
 @media (max-width: 480px){
     .padding{
         padding: 5px;
-        margin: 5px;
+        margin: 2px;
+        align-items: center;
     }
 }
 .dadpics{
@@ -159,7 +182,7 @@ marquee{
 }
 @media (max-width: 480px){
     .dadpics .pic1 img{
-        width: 350px;
+        width: 300px;
         height: 200px;
     }
 }
@@ -168,8 +191,8 @@ marquee{
 }
 @media (max-width: 480px){
     .dadpics .pic2 img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 }
 .dadpics a :hover {
@@ -194,6 +217,11 @@ marquee{
 @media (max-width: 480px){
     .wrapper{
         display: block;
+    }
+}
+@media (max-width: 480px){
+    .wrapper .card img{
+        width: 300px;
     }
 }
 .wrapper:hover> :not(:hover){
